@@ -16,7 +16,7 @@ public class ApplicationEventMulticaster extends SimpleApplicationEventMulticast
 
     private ExecutorService executorService;
 
-    public ExecutorService getExectorService() {
+    public ExecutorService getExecutorService() {
         return executorService;
     }
     public void setExecutorService(ExecutorService executorService) {
